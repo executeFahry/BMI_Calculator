@@ -8,12 +8,12 @@ class CounterCard extends StatelessWidget {
   final ValueChanged<int> onChanged;
 
   const CounterCard({
-    Key? key,
+    super.key,
     required this.label,
     required this.value,
     required this.unit,
     required this.onChanged,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

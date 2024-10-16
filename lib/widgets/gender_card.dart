@@ -8,12 +8,12 @@ class GenderCard extends StatelessWidget {
   final VoidCallback onTap;
 
   const GenderCard({
-    Key? key,
+    super.key,
     required this.label,
     required this.icon,
     required this.selected,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

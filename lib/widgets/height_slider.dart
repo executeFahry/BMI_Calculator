@@ -6,10 +6,10 @@ class HeightSlider extends StatelessWidget {
   final ValueChanged<double> onChanged;
 
   const HeightSlider({
-    Key? key,
+    super.key,
     required this.height,
     required this.onChanged,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
