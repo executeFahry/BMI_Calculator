@@ -1,6 +1,6 @@
-# bmi
+# BMI Calculator
 
-A new Flutter project.
+A mobile-based application to calculate your BMI score.
 
 ## Getting Started
 
